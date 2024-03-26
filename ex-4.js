@@ -4,4 +4,5 @@
 let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
 
-console.log((numberOfSoldProduct / numberOfProductInStock) * 100);
+console.log(numberOfSoldProduct / numberOfProductInStock * 100);
+"จะเป็น NaN เพราะหากนำตัวเลขมาผ่านกระบวนการทางคณิตศาสตร์กับ value ที่หาค่าไม่ได้จะได้ผลเป็น NaN"
